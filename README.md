@@ -1,6 +1,6 @@
 # My personal website
 
-### I started building this website to explore and familiarise myself with some frontend tools. This was written from scratch, following a bunch of tutorials, guides as well as inspecting portfolio websites done by my peers.
+I started building this website to explore and familiarise myself with some frontend tools. This was written from scratch, following a bunch of tutorials, guides as well as inspecting portfolio websites done by my peers.
 
 ## Some important links that I used:
 
