@@ -287,7 +287,7 @@ img{
 }
 
 .home__blob-img{
-    width: 200px;
+    width: 300px;
 }
 
 .home__data{
@@ -394,7 +394,7 @@ img{
     margin-bottom: var(--mb-2-5)
 }
 
-.about__info{
+/* .about__info{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2-5)
@@ -414,7 +414,7 @@ img{
 .about__info-name{
     display: block;
     text-align: center;
-}
+} */
 
 .about__buttons{
     display: flex;
@@ -552,6 +552,15 @@ img{
     font-size: 2rem;
     color: var(--first-color);
     margin-right: var(--mb-0-75);
+}
+
+.email__icon i:hover{
+    color: var(--first-color-alt);
+}
+
+.email__icon:hover{
+    transform: translateY(.15rem);
+    transition: .3s;
 }
 
 .contact__title{
