@@ -261,7 +261,8 @@ img{
 }
 
 .home__content{
-    grid-template-columns: .5fr 3fr;
+    /* to center home data */
+    /* grid-template-columns: .5fr 3fr; */
     padding-top: 3.5rem;
     align-items: center;
 }
@@ -754,7 +755,8 @@ body.dark-theme{
 /* For medium devices */
 @media screen and (min-width: 568px){
     .home__content{
-        grid-template-columns: 1fr 1fr;
+        /* to center home data */
+        /* grid-template-columns: 1fr 1fr; */
     }
     .home__data{
         grid-column: initial;
