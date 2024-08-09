@@ -432,14 +432,26 @@ img{
 }
 
 /*==================== SKILLS ====================*/
+.icon__container{
+    display: flex;
+    flex-direction: column; /* Stack icon and name vertically */
+    align-items: center; /* Center-align items horizontally */
+}
+
 .skills__img{
     height: 40px;
     width: 40px;
     transition: .3s;
+    margin: 10px;
 }
 
 .skills__img:hover{
     transform:translateY(.25rem);
+}
+
+.skills__name{
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .skills__title{
@@ -458,6 +470,10 @@ img{
     flex-wrap: wrap;
     margin-bottom: var(--mb-1);
     gap: 10px;
+}
+
+.icon__container:hover .skills__name{
+    opacity: 1;
 }
 
 /*==================== PROJECTS ====================*/
@@ -776,7 +792,6 @@ body.dark-theme{
         justify-self: center;
     }
 
-    .skills__container,
     .projects__content,
     .contact__container,
     .footer__container{
