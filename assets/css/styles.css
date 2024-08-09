@@ -547,6 +547,13 @@ img{
 }
 
 /*==================== Experience ====================*/
+
+.experience__title__date {
+    display: flex;
+    justify-content: space-between; /* Align title and date to opposite sides */
+    align-items: center; /* Center items vertically */
+}
+
 .experience__info{
     list-style: disc;
     margin-left: 3px;
