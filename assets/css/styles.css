@@ -464,10 +464,14 @@ img{
 .skills__section{
     margin-bottom: var(--mb-1);
 }
+.skills__container{
+    text-align: center;
+}
 
 .skills__icons{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: var(--mb-1);
     gap: 10px;
 }
@@ -809,13 +813,6 @@ body.dark-theme{
     .contact__container,
     .footer__container{
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .skills__container{
-        text-align: center;
-    }
-    .skills__icons{
-        justify-content: center;
     }
 
     .skills__img{
